@@ -42,12 +42,13 @@ The RestaurantRepository interfaces with MySQL using JPA to fetch the restaurant
 5.Data Mapping:
 JPA maps SQL result sets to Java entities (Restaurant and Item).
 
-##Author
-
-Kuldeep Kumar Maurya
 
 6.Returning Response:
 The service returns the data to the controller, which sends it back as JSON in the HTTP response.
 
 7.Error Handling:
 If something goes wrong (e.g., restaurant not found), exceptions propagate from repository to service to controller, which returns appropriate HTTP error responses.
+
+##Author
+
+Kuldeep Kumar Maurya
